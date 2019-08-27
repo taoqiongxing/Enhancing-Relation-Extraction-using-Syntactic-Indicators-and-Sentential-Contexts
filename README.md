@@ -1,6 +1,6 @@
-#论文：Enhancing Relation Extraction using Syntactic Indicators and Sentential Contexts
+# 论文：Enhancing Relation Extraction using Syntactic Indicators and Sentential Contexts
 
-##训练
+## 训练
 
 ```shell
 export BERT_BASE_DIR=/文件路径/uncased_L-24_H-1024_A-16
@@ -20,7 +20,7 @@ python run_classifier.py \
   --output_dir=/路径/output/
 ```
 
-##测试
+## 测试
 
 ```shell
 export BERT_BASE_DIR=/文件路径/uncased_L-24_H-1024_A-16
